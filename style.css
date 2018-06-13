@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Song+Myung|Squada+One');
+
+/*resets the full canvas */
+html,body{
+	margin: 0;
+	height: 100%;
+	width: 100%
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background:url(images/beach-boardwalk.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.welcome{
+	max-width: 70%;
+	font-size: 14px;
+	margin: 0px auto;
+	background:#ede2de;
+	padding:6px;
+}
+
+.welcome.inner{
+	display: table-cell; /*used to center*/
+	vertical-align: middle;
+	width: 100%;
+	margin: auto;
+}
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.content h1 {
+	font-family:'Sunflower', sans-serif;
+	color:#e8ca45;
+	font-weight: bold;
+	font-size: 400%;
+}
+
+.button {
+	font-family:'Squada One', cursive;
+	border: solid;
+	border-color:#ffd2b9;
+	border-radius:10px;
+	font-size: 12px;
+	padding: 10px 18px;
+}
+
+a:hover {
+  color: #f05f40;
+}
+
+p{
+	text-align: justify;
+	font-family: serif;
+}
